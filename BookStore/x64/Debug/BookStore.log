@@ -1,0 +1,13 @@
+﻿  BookStore.cpp
+D:\Windows Helper\Abdullah\Desktop\ElroubyDLL\Headers\ListSharp.h(42,20): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'BookStore.cpp')
+      D:\Windows Helper\Abdullah\Desktop\ElroubyDLL\Headers\ListSharp.h(42,20):
+      the template instantiation context (the oldest one first) is
+          D:\Windows Helper\Abdullah\Desktop\BookStore\Library.h(17,22):
+          see reference to class template instantiation 'ListSharp<Computer>' being compiled
+          D:\Windows Helper\Abdullah\Desktop\ElroubyDLL\Headers\ListSharp.h(40,6):
+          while compiling class template member function 'int ListSharp<Computer>::Count(void)'
+              D:\Windows Helper\Abdullah\Desktop\BookStore\BookStore.cpp(57,3):
+              see the first reference to 'ListSharp<Computer>::Count' in 'MainLoad'
+  
+  BookStore.vcxproj -> D:\Windows Helper\Abdullah\Desktop\BookStore\x64\Debug\BookStore.exe
